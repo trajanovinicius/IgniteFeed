@@ -2,9 +2,20 @@
 	background: var(--gray-800);
 	display: flex;
 	justify-content: center;
+	user-select: none;
 	padding: 1.25rem 0;
+	gap: 1rem;
 }
 
 .header img {
 	height: 2rem;
+}
+
+.header p {
+	display: flex;
+	color: var(--gray-100);
+	font-family: "Roboto", sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	user-select: none;
 }
