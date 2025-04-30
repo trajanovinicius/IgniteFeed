@@ -62,5 +62,3 @@ export function Post({ author, publishedAt, content }) {
 		</article>
 	);
 }
-
-//teste
